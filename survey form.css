@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+    color: #333;
+}
+
+#description {
+    text-align: center;
+    color: #777;
+}
+
+#survey-form {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+#survey-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"],
+#survey-form select,
+#survey-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#survey-form input[type="radio"], #survey-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#survey-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+#survey-form button:hover {
+    background-color: #45a049;
+}
+
+#survey-form .radio-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+#survey-form .radio-container input[type="radio"] {
+    margin-right: 5px;
+  }
+#survey-form .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+#survey-form .checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button#submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#submit:hover {
+    background-color: #0056b3;
+}

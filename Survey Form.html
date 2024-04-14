@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<html>
+<head>
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Bat's Hat's</h1>
+    <p id="description">Please fill out this form to help us improve.</p>
+    <form id="survey-form">
+    <label id="name-label" for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required/><br>
+    <label id="email-label" for="email">Email: </label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required/><br>
+    <label id="number-label" for="number">Rate:</label><br>
+    <input type="number" id="number" name="number" min="1" max="5" placeholder="Rate 1 - 5" required/><br>
+    <label for="dropdown">Choose an option: </label><br>
+    <select id="dropdown" name="dropdown">
+        <option value="">(Choose one)</option>
+        <option value="option1">Receive emails with promotions, deals and coupons?</option>
+        <option value="option2">Do not send me emails.</option>
+    </select><br>
+</form>
+<form id="survey-form">
+  <p>Will you shop with us again?</p>
+  <div class="radio-container">
+    <input type="radio" id="option1" name="option" value="Option 1"/>
+    <label for="option1">I will shop here again</label>
+  </div>
+  <div class="radio-container">
+    <input type="radio" id="option2" name="option" value="Option 2"/>
+    <label for="option2">I will not shop here again</label>
+  </div>
+</form>
+<form id="survey-form">
+  <p>Tell us about your experience.</p>
+  <div class="checkbox-container">
+    <input type="checkbox" id="checkbox1" name="checkbox" value="Checkbox 1">
+    <label for="checkbox1">Absolutely love my hat</label>
+  </div>
+  <div class="checkbox-container">
+    <input type="checkbox" id="checkbox2" name="checkbox" value="Checkbox 2">
+    <label for="checkbox2">Don't love my hat</label>
+  </div>
+
+  <textarea name="comments" placeholder="Enter additional comments here..."></textarea>
+
+  <button id="submit">Submit</button>
+</form>
+</body>
+</html>
